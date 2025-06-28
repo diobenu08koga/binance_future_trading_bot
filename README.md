@@ -1,3 +1,29 @@
+# Binance Futures Trading Bot
+
+A trading bot designed for automated futures trading on Binance exchange.
+
+## Features
+
+- Automated futures trading
+- Risk management
+- Multiple trading strategies
+- Real-time market data analysis
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure your API keys in the config file
+4. Run the bot: `python run_bot.py`
+
+## Usage
+
+The bot executes trades based on configured strategies and market conditions.
+
+## Warning
+
+This software is for educational purposes. Test thoroughly before using with real funds.
+
 # Binance Future Trading Bot (EMA Crossover Strategy)
 <p>This bot automates future trading on Binance based on Exponential Moving Average (EMA) crossovers. When the short-term EMA crosses above the long-term EMA, it's an indication of upward momentum, and the bot places a buy order. Conversely, when the short-term EMA crosses below the long-term EMA, signaling potential downward momentum, the bot places a sell order.</p>
 
